@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    a:orientation="vertical"
+    a:layout_width="fill_parent"
+    a:layout_height="fill_parent">
+
+    <LinearLayout
+        a:orientation="horizontal"
+        a:layout_width="fill_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="20px" >
+
+        <TextView
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:text="Scanned barcode: " />
+
+        <TextView
+            a:id="@+id/code"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        a:id="@+id/scan"
+        a:layout_width="fill_parent"
+        a:layout_height="wrap_content"
+        a:text="Get the barcode" />
+
+</LinearLayout>
