@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    a:orientation="vertical"
+    a:layout_width="fill_parent"
+    a:layout_height="fill_parent">
+
+    <TextView
+        a:id="@+id/color_box"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:height="100px"
+        a:width="100px"
+        a:layout_gravity="center_horizontal"
+        a:layout_marginTop="100px"
+        a:layout_marginBottom="10px" />
+
+    <TextView
+        a:id="@+id/html_label"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="#000000"
+        a:layout_gravity="center_horizontal" />
+
+    <TableLayout
+        a:layout_width="fill_parent"
+        a:layout_height="wrap_content"
+        a:stretchColumns="1"
+        a:paddingLeft="10px"
+        a:paddingRight="10px"
+        a:layout_marginTop="40px">
+
+        <TableRow
+            a:paddingTop="5px">
+            <TextView
+                a:text="R:"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:paddingTop="4px" />
+            <SeekBar
+                a:id="@+id/r_bar"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:paddingLeft="10px"
+                a:paddingRight="10px" />
+            <TextView
+                a:id="@+id/r_label"
+                a:text="0"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:width="30px"
+                a:paddingTop="4px" />
+        </TableRow>
+
+        <TableRow
+            a:paddingTop="5px">
+            <TextView
+                a:text="G:"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:paddingTop="4px" />
+            <SeekBar
+                a:id="@+id/g_bar"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:paddingLeft="10px"
+                a:paddingRight="10px" />
+            <TextView
+                a:id="@+id/g_label"
+                a:text="0"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:paddingTop="4px" />
+        </TableRow>
+
+        <TableRow
+            a:paddingTop="5px">
+            <TextView
+                a:text="B:"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:paddingTop="4px" />
+            <SeekBar
+                a:id="@+id/b_bar"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:paddingLeft="10px"
+                a:paddingRight="10px" />
+            <TextView
+                a:id="@+id/b_label"
+                a:text="0"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:paddingTop="4px" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

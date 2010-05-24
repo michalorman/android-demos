@@ -1,0 +1,8 @@
+Simple color picker allowing to choose color by modifying RGB values. The aim
+of this project is to present usage of TableLayout.
+
+To run this project need to have AndroidCore library configured in build path.
+The easiest way is to import AndroidCore as maven project into eclipse, and
+set the project dependency in build path in project properties.
+
+AndroidCore: http://github.com/michalorman/android-core
