@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+  <string-array name="country_names">
+    <item>Poland</item>
+    <item>Germany</item>
+    <item>United States</item>
+    <item>Great Britain</item>
+  </string-array>
+  
+  <string-array name="country_codes">
+    <item>pl</item>
+    <item>de</item>
+    <item>us</item>
+    <item>gb</item>
+  </string-array>
+
+</resources>

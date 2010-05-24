@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen
+  xmlns:a="http://schemas.android.com/apk/res/android">
+
+  <PreferenceCategory
+    a:title="Basic preferences">
+    <CheckBoxPreference
+      a:key="checkbox"
+      a:title="Checkbox preference"
+      a:summary="Check it on, check it off" />
+    <RingtonePreference
+      a:key="ringtone"
+      a:title="Ringtone Preference"
+      a:summary="Pick a tone, any tone"
+      a:showDefault="true"
+      a:showSilent="true" />
+  </PreferenceCategory>
+
+  <PreferenceCategory
+    a:title="Advanced preferences">
+
+    <PreferenceScreen
+      a:key="advanced"
+      a:title="Advanced preferences"
+      a:summary="Additional, advanced preferences">
+
+      <CheckBoxPreference
+        a:key="checkbox2"
+        a:title="Another checkobx preference"
+        a:summary="Check it on, or check it off" />
+
+    </PreferenceScreen>
+
+  </PreferenceCategory>
+
+  <PreferenceCategory
+    a:title="Even more preferences">
+
+    <EditTextPreference
+      a:key="text"
+      a:title="Useless preference"
+      a:summary="Edit text to provide useless preference"
+      a:dialogTitle="Enter useless value" />
+
+    <ListPreference
+      a:key="list"
+      a:title="Location"
+      a:summary="Select your location"
+      a:dialogTitle="Select location"
+      a:entries="@array/country_names"
+      a:entryValues="@array/country_codes" />
+
+  </PreferenceCategory>
+
+</PreferenceScreen>

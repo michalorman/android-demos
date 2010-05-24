@@ -1,0 +1,7 @@
+Simple demo application presenting the usage of Android preferences API.
+
+To run this project need to have AndroidCore library configured in build path.
+The easiest way is to import AndroidCore as maven project into eclipse, and
+set the project dependency in build path in project properties.
+
+AndroidCore: http://github.com/michalorman/android-core

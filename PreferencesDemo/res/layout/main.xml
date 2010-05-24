@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:a="http://schemas.android.com/apk/res/android"
+  a:orientation="vertical"
+  a:layout_width="fill_parent"
+  a:layout_height="fill_parent">
+
+  <TextView
+    a:layout_width="fill_parent"
+    a:layout_height="wrap_content"
+    a:text="@string/hello" />
+
+  <TextView
+    a:layout_width="fill_parent"
+    a:layout_height="wrap_content"
+    a:text="Current preferences:"
+    a:layout_marginTop="30px"
+    a:layout_marginBottom="10px"
+    a:paddingLeft="5px"
+    a:paddingTop="3px"
+    a:paddingBottom="3px"
+    a:background="#333"
+    a:textStyle="bold" />
+
+  <TableLayout
+    a:layout_width="fill_parent"
+    a:layout_height="wrap_content">
+
+    <TableRow>
+      <TextView
+        a:text="Checkbox: " />
+      <TextView
+        a:id="@+id/checkbox"
+        a:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+      <TextView
+        a:text="Ringtone: " />
+      <TextView
+        a:id="@+id/ringtone"
+        a:textStyle="bold" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView
+        a:text="Checkbox2: " />
+      <TextView
+        a:id="@+id/checkbox2"
+        a:textStyle="bold" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView
+        a:text="Text: " />
+      <TextView
+        a:id="@+id/text"
+        a:textStyle="bold" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView
+        a:text="List: " />
+      <TextView
+        a:id="@+id/list"
+        a:textStyle="bold" />
+    </TableRow>
+  </TableLayout>
+</LinearLayout>
