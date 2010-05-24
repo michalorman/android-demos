@@ -1,6 +1,6 @@
 package android.demo.prefs;
 
-import pl.michalorman.android.core.PreferenceActivity;
+import pl.michalorman.android.core.preference.PreferenceActivity;
 
 public class EditPreferences extends PreferenceActivity {
 
