@@ -5,16 +5,19 @@
 
   <PreferenceCategory
     a:title="Basic preferences">
+    
     <CheckBoxPreference
       a:key="checkbox"
       a:title="Checkbox preference"
       a:summary="Check it on, check it off" />
+      
     <RingtonePreference
       a:key="ringtone"
       a:title="Ringtone Preference"
       a:summary="Pick a tone, any tone"
       a:showDefault="true"
       a:showSilent="true" />
+      
   </PreferenceCategory>
 
   <PreferenceCategory

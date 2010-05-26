@@ -6,7 +6,6 @@ import pl.michalorman.android.core.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -39,7 +38,7 @@ public class PreferencesDemo extends Activity {
     }
 
     @Override
-    protected boolean handleOptionsSelection(MenuItem item) {
+    protected boolean handleMenuItemSelection(MenuItem item) {
         switch (item.getItemId()) {
         case PREFS_ID:
             startActivity(new Intent(this, EditPreferences.class));
@@ -50,7 +49,7 @@ public class PreferencesDemo extends Activity {
 
     @Override
     protected void handleResume() {
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences prefs = getDefaultSharedPreferences();
         checkbox.setText(String.valueOf(prefs.getBoolean("checkbox", false)));
         ringtone.setText(prefs.getString("ringtone", "<not set>"));
         checkbox2.setText(String.valueOf(prefs.getBoolean("checkbox2", false)));
